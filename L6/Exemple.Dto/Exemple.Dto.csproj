@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Exemple.Data\Exemple.Data.csproj" />
+    <ProjectReference Include="..\Exemple\Exemple.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
